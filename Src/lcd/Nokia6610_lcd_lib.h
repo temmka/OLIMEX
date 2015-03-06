@@ -18,55 +18,55 @@
 
 // Р В РЎв„ўР В РЎвЂўР В РЎпїЅР В Р’В°Р В Р вЂ¦Р В РўвЂ�Р РЋРІР‚в„– Р В РЎвЂќР В РЎвЂўР В Р вЂ¦Р РЋРІР‚С™Р РЋР вЂљР В РЎвЂўР В Р’В»Р В Р’В»Р В Р’ВµР РЋР вЂљР В Р’В° PCF8833
    
-#define LCD_PHILLIPS_NOP        0x00   // nop        
-#define LCD_PHILLIPS_SWRESET    0x01   // software reset           
-#define LCD_PHILLIPS_BSTROFF    0x02   // booster voltage OFF       
-#define LCD_PHILLIPS_BSTRON     0x03   // booster voltage ON 
+#define LCD_PHILLIPS_NOP        0x00   // nop
+#define LCD_PHILLIPS_SWRESET    0x01   // software reset
+#define LCD_PHILLIPS_BSTROFF    0x02   // booster voltage OFF
+#define LCD_PHILLIPS_BSTRON     0x03   // booster voltage ON
 #define LCD_PHILLIPS_RDDIDIF    0x04   // read display identification
-#define LCD_PHILLIPS_RDDST      0x09   // read display status         
-#define LCD_PHILLIPS_SLEEPIN    0x10   // sleep in           
+#define LCD_PHILLIPS_RDDST      0x09   // read display status
+#define LCD_PHILLIPS_SLEEPIN    0x10   // sleep in
 #define LCD_PHILLIPS_SLEEPOUT   0x11   // sleep out
-#define LCD_PHILLIPS_PTLON      0x12   // partial display mode         
-#define LCD_PHILLIPS_NORON      0x13   // display normal mode        
-#define LCD_PHILLIPS_INVOFF     0x20   // inversion OFF           
-#define LCD_PHILLIPS_INVON      0x21   // inversion ON 
+#define LCD_PHILLIPS_PTLON      0x12   // partial display mode
+#define LCD_PHILLIPS_NORON      0x13   // display normal mode
+#define LCD_PHILLIPS_INVOFF     0x20   // inversion OFF
+#define LCD_PHILLIPS_INVON      0x21   // inversion ON
 #define LCD_PHILLIPS_DALO       0x22   // all pixel OFF
-#define LCD_PHILLIPS_DAL        0x23   // all pixel ON   
-#define LCD_PHILLIPS_SETCON     0x25   // write contrast              1-byte  
+#define LCD_PHILLIPS_DAL        0x23   // all pixel ON
+#define LCD_PHILLIPS_SETCON     0x25   // write contrast              1-byte
 #define LCD_PHILLIPS_DISPOFF    0x28   // display OFF
 #define LCD_PHILLIPS_DISPON     0x29   // display ON
 #define LCD_PHILLIPS_CASET      0x2A   // column address set          2-byte
 #define LCD_PHILLIPS_PASET      0x2B   // page address set            2-byte
 #define LCD_PHILLIPS_RAMWR      0x2C   // memory write
 #define LCD_PHILLIPS_RGBSET     0x2D   // colour set                  20-byte
-#define LCD_PHILLIPS_PTLAR      0x30   // partial area 
-#define LCD_PHILLIPS_VSCRDEF    0x33   // vertical scrolling definition 
+#define LCD_PHILLIPS_PTLAR      0x30   // partial area
+#define LCD_PHILLIPS_VSCRDEF    0x33   // vertical scrolling definition
 #define LCD_PHILLIPS_TEOFF      0x34   // test mode OFF
 #define LCD_PHILLIPS_TEON       0x35   // test mode ON
 #define LCD_PHILLIPS_MADCTL     0x36   // memory access control       1-byte
-#define LCD_PHILLIPS_SEP        0x37   // vertical scrolling start address 
-#define LCD_PHILLIPS_IDMOFF     0x38   // idle mode OFF 
-#define LCD_PHILLIPS_IDMON      0x39   // idle mode ON 
-#define LCD_PHILLIPS_COLMOD     0x3A   // interface pixel format      1-byte     
-#define LCD_PHILLIPS_SETVOP     0xB0   // set Vop   
-#define LCD_PHILLIPS_BRS        0xB4   // bottom row swap 
-#define LCD_PHILLIPS_TRS        0xB6   // top row swap 
-#define LCD_PHILLIPS_DISCTR     0xB9   // display control 
-#define LCD_PHILLIPS_DOR        0xBA   // data order 
-#define LCD_PHILLIPS_TCDFE      0xBD   // enable/disable DF temperature compensation 
-#define LCD_PHILLIPS_TCVOPE     0xBF   // enable/disable Vop temp comp 
-#define LCD_PHILLIPS_EC         0xC0   // internal or external  oscillator 
-#define LCD_PHILLIPS_SETMUL     0xC2   // set multiplication factor 
-#define LCD_PHILLIPS_TCVOPAB    0xC3   // set TCVOP slopes A and B 
-#define LCD_PHILLIPS_TCVOPCD    0xC4   // set TCVOP slopes c and d 
-#define LCD_PHILLIPS_TCDF       0xC5   // set divider frequency 
-#define LCD_PHILLIPS_DF8COLOR   0xC6   // set divider frequency 8-color mode 
-#define LCD_PHILLIPS_SETBS      0xC7   // set bias system 
-#define LCD_PHILLIPS_RDTEMP     0xC8   // temperature read back 
-#define LCD_PHILLIPS_NLI        0xC9   // n-line inversion 
-#define LCD_PHILLIPS_RDID1      0xDA   // read ID1 
-#define LCD_PHILLIPS_RDID2      0xDB   // read ID2 
-#define LCD_PHILLIPS_RDID3      0xDC   // read ID3  
+#define LCD_PHILLIPS_SEP        0x37   // vertical scrolling start address
+#define LCD_PHILLIPS_IDMOFF     0x38   // idle mode OFF
+#define LCD_PHILLIPS_IDMON      0x39   // idle mode ON
+#define LCD_PHILLIPS_COLMOD     0x3A   // interface pixel format      1-byte
+#define LCD_PHILLIPS_SETVOP     0xB0   // set Vop
+#define LCD_PHILLIPS_BRS        0xB4   // bottom row swap
+#define LCD_PHILLIPS_TRS        0xB6   // top row swap
+#define LCD_PHILLIPS_DISCTR     0xB9   // display control
+#define LCD_PHILLIPS_DOR        0xBA   // data order
+#define LCD_PHILLIPS_TCDFE      0xBD   // enable/disable DF temperature compensation
+#define LCD_PHILLIPS_TCVOPE     0xBF   // enable/disable Vop temp comp
+#define LCD_PHILLIPS_EC         0xC0   // internal or external  oscillator
+#define LCD_PHILLIPS_SETMUL     0xC2   // set multiplication factor
+#define LCD_PHILLIPS_TCVOPAB    0xC3   // set TCVOP slopes A and B
+#define LCD_PHILLIPS_TCVOPCD    0xC4   // set TCVOP slopes c and d
+#define LCD_PHILLIPS_TCDF       0xC5   // set divider frequency
+#define LCD_PHILLIPS_DF8COLOR   0xC6   // set divider frequency 8-color mode
+#define LCD_PHILLIPS_SETBS      0xC7   // set bias system
+#define LCD_PHILLIPS_RDTEMP     0xC8   // temperature read back
+#define LCD_PHILLIPS_NLI        0xC9   // n-line inversion
+#define LCD_PHILLIPS_RDID1      0xDA   // read ID1
+#define LCD_PHILLIPS_RDID2      0xDB   // read ID2
+#define LCD_PHILLIPS_RDID3      0xDC   // read ID3
 
 //**********************************************************************************************
 //   ! Р В РЎС™Р В РЎвЂ�Р В Р вЂ¦Р В РЎвЂ�Р В РЎпїЅР В Р’В°Р В Р’В»Р РЋР Р‰Р В Р вЂ¦Р В Р’В°Р РЋР РЏ Р В Р’В·Р В Р’В°Р В РўвЂ�Р В Р’ВµР РЋР вЂљР В Р’В¶Р В РЎвЂќР В Р’В°, Р В РЎвЂ”Р РЋР вЂљР В РЎвЂ� Р В РЎвЂќР В РЎвЂўР РЋРІР‚С™Р В РЎвЂўР РЋР вЂљР В РЎвЂўР В РІвЂћвЂ“ Р РЋР вЂљР В Р’В°Р В Р’В±Р В РЎвЂўР РЋРІР‚С™Р В Р’В°Р В Р’ВµР РЋРІР‚С™ Р В РЎпїЅР В РЎвЂўР В РІвЂћвЂ“ LCD-Р В РЎвЂќР В РЎвЂўР В Р вЂ¦Р РЋРІР‚С™Р РЋР вЂљР В РЎвЂўР В Р’В»Р В Р’В»Р В Р’ВµР РЋР вЂљ 0                         *

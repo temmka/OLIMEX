@@ -72,6 +72,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.436228281" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
@@ -96,6 +98,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.631620752" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -121,6 +125,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.35178540" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -168,6 +174,113 @@
 							<tool command="${cross_prefix}${cross_size}${cross_suffix}" commandLinePattern="${COMMAND} ${FLAGS}" errorParsers="" id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2773341" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1268736369" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" value="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.berkeley" valueType="enumerated"/>
 							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.174997956.1934268663" name="/" resourcePath="Src/menu">
+						<toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug.711488790" name="Cross ARM GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1789870864.1435443588" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1789870864"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1369574693.1585725864" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1369574693"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1743484379.985484758" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1743484379"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1724712090.211419599" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1724712090"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.154183104.581161179" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.154183104"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1843917092.619863726" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1843917092"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.477665614.2018157349" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.477665614"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.714423347.1047336457" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.714423347"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.572375087.115239456" name="ARM family" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.572375087"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.648991858.1828047510" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.648991858"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1278754139.366471619" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1278754139"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1341963994.969872752" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1341963994"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.461402334.1081129039" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.461402334"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.563125555.135654114" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.563125555"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1691580567.83827686" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1691580567"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.426363969.35509797" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.426363969"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.865243910.1304020664" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.865243910"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.623509699.731396159" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.623509699"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1579721339.64142156" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1579721339"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1666529168.391386033" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1666529168"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1102838720.173037065" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1102838720"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1937687606.912599177" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1937687606"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1479494972.1595259488" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1479494972"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.36832062.1806596544" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.36832062"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.path.2133761978.2045711724" name="Path" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.path.2133761978"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1595976928.2139620432" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1595976928"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.architecture.144948400.1465248373" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.architecture.144948400"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.1003164827.876879283" name="Endianness" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.1003164827"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.1822390653.198511990" name="FPU Type" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.1822390653"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.1574697254.1562993199" name="Unaligned access" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.1574697254"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1980934762" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.794852800">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.161266935" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1819901084" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1075489131" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.506903261">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1176613412" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.644593192" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.432958521" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1894988282">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.1278705623" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.25629764" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1973245647" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1593690969"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.813225928" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.207949763"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.181962896" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1055809517"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1900792827" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.738252981"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.623688441" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1483476855"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.919171941" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2773341"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.174997956.292910571" name="/" resourcePath="Src/lcd">
@@ -220,6 +333,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1456174200" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
@@ -240,6 +355,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.647486953" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
@@ -260,6 +377,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.2118800586" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
 							</tool>
@@ -362,6 +481,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.2071262732" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -412,6 +533,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1045586633" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -462,6 +585,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.1360077495" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -509,6 +634,177 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.868357212" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.558974806" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
 							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1946880251.1868072047" name="/" resourcePath="Src/menu">
+						<toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release.1790365811" name="Cross ARM GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.559385656.1674716201" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.559385656"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.179467349.1977241808" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.179467349"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.2036575642.110813429" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.2036575642"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1529205772.819932800" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1529205772"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1579368054.347137422" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1579368054"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1636872388.1490115921" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1636872388"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.2014546804.1871866098" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.2014546804"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.55139463.1634833596" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.55139463"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1918209787.986275268" name="ARM family" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1918209787"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.848403770.68286443" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.848403770"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1485157669.1265692805" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1485157669"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1253476746.1468466996" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1253476746"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1113690451.2133863494" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1113690451"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1705449946.1097067588" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1705449946"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.985689123.919412247" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.985689123"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1042259089.611605614" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1042259089"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.496768885.2038104909" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.496768885"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.155531175.2058469126" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.155531175"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1778565978.1824639783" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1778565978"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.750486414.913762578" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.750486414"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1569668183.228671418" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1569668183"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1600041483.2039200318" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1600041483"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.660038665.194801317" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.660038665"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1960839864.1796503245" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1960839864"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.path.1939277848.1295982433" name="Path" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.path.1939277848"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.282584924" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1413394860">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.493146647" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis_boot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/modules}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdInc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdSrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/TrueSTUDIO}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/User}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1180073656" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.809464516" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1995495610">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.647061013" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis_boot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/modules}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdInc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdSrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/TrueSTUDIO}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/User}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1391214324" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.964260448" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.879056360">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.242670012" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/cmsis_boot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/modules}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdInc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/stdSrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/TrueSTUDIO}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Application/User}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/FreeRTOS/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.514432082" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.132362200" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1346375825"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.97271387" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1427726203"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.529526604" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1083835378"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1913873814" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1054348516"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.179394232" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.965776311"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1006776803" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.868357212"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1946880251.150689417" name="/" resourcePath="Src/lcd">
@@ -579,6 +875,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.942322327" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
@@ -622,6 +920,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.154205034" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
@@ -665,6 +965,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Drivers/CMSIS/Device/ST/STM32F4xx/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/lcd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/menu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/OLIMEX/Src/tsensor}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1416749141" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
 							</tool>
