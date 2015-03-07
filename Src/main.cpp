@@ -39,7 +39,7 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
-#include "Nokia6610_lcd_lib.h"
+
 #include "menu.h"
 #include "freertos_run.h"
 /* USER CODE END Includes */

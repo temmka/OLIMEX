@@ -13,7 +13,7 @@
 #include "event_groups.h"
 #include "app.h"
 #include "gpio.h"
-#include "Nokia6610_lcd_lib.h"
+#include "Nokia6610.h"
 #include "soft_i2c.h"
 #include "stdio.h"
 

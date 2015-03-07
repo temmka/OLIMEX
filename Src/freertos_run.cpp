@@ -59,6 +59,10 @@ xTaskHandle Task_4_Handle;
 
 char buff[3];
 unsigned char temperature, ttemp;
+
+Nokia6610 lcd;
+
+
 void MX_FREERTOS_Init()
 {
 	/* USER CODE BEGIN Init */
@@ -82,8 +86,10 @@ void MX_FREERTOS_Init()
 	//app obj;
 //	app *tsk1;
 //	tsk1 = new app("Task1", 1, 1000);
-	nlcd_Init();
+//	nlcd_Init();
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+
+	lcd.Init();
 
 	//vTaskPrioritySet(tsk2, 1);
 	//xTaskCreate( vTaskCode, "NAME", STACK_SIZE, &ucParameterToPass, tskIDLE_PRIORITY, &xHandle )
@@ -125,8 +131,9 @@ void Task_1(void * argument)
 		//sprintf(buff, "%d", temperature);
 		//nlcd_Text(buff, 10, 110, WHITE, BLACK);
 
-		nlcd_Text("Температура ", 10, 10, WHITE, BLACK);
-		//vTaskSuspend(Task_1_Handle);
+		lcd.drawStr("Test ", 10, 10,MEDIUM
+				, WHITE, BLACK);
+
 
 		vTaskSuspend(Task_1_Handle);
 	}
@@ -169,7 +176,7 @@ void Task_3(void * argument)
 	/* Infinite loop */
 	for (;;)
 	{
-		nlcd_Text("Temperatura ", 10, 10, WHITE, BLACK);
+		lcd.drawStr("Temperat ", 10, 10,MEDIUM, WHITE, BLACK);
 		vTaskSuspend(Task_3_Handle);
 	}
 
@@ -186,7 +193,7 @@ void Task_4(void * argument)
 	for (;;)
 	{
 		HAL_GPIO_TogglePin(GPIOF, GPIO_PIN_9);
-		//vTaskDelay(250 / portTICK_RATE_MS);
+		vTaskDelay(250 / portTICK_RATE_MS);
 	}
 
 	/* USER CODE END 5 */
